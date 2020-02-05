@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "alias": "beccasiegal-bookmarks-app",
+    "name": "noteful",
+    "routes": [
+        {
+          "src": "^/static/(.*)",
+          "dest": "/static/$1"
+        },
+        {
+          "src": ".*",
+          "dest": "/index.html"
+        }
+    ]
+  }
